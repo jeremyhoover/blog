@@ -23,15 +23,41 @@
 
 <body>
     
-    {% include nav.html %}
+<div class="topbar" style="position: fixed; top: 0; z-index: 1000;">
+
+    <div class="container-content">
+    
+        
+        <div class="logo menu-btn">
+            <a href="http://jeremyhoover.github.io">H</a>
+        </div>
+        
+        {% include nav.html %}
+          
+    </div>
+    
+</div>
 
 {{content}}
+    
+<section id="share">
+	<p style="font-weight: bold;"><i class="fa fa-heart"></i> - Jeremy</p>
+	
+	<div class="clearfix sharer">
+		<div class="clearfix shareleft">
+			<a href="https://www.facebook.com/sharer/sharer.php?u=http://www.assdozer.com/posts/where-are-the-comments" target="_blank" id="facebook"><i class="fa fa-facebook"></i> <span class="hidden-phone">Share On</span> Facebook</a>
+		</div>
+	
+		<div class="clearfix shareright">
+			<a href="http://twitter.com/share?text=Where are the comments? (via @theassdozer) - &url=http://www.assdozer.com/posts/where-are-the-comments&hashtags=assdozer,theassdozer,theassdozeranthology" target="_blank" id="twitter"><i class="fa fa-twitter"></i> <span class="hidden-phone">Share On</span> Twitter</a>
+		</div>
+	</div>
     
 <hr>
 
 <p style="margin-top: -10px;">&copy; 2014  &#183; Jeremy Hoover</p>
-    
-{% include nav.html %}
+
+</section>
  
 </body> 
 </html>
