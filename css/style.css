@@ -123,6 +123,7 @@ p.justify	{
 }
 h1.title	{
     font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
     line-height: 1.1em;
     margin-bottom: -5px;
 }
