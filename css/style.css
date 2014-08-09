@@ -15,13 +15,12 @@ img	{
     padding-bottom: 40px;
 }
 a {
-    color: #62727a;
+    color: #2ac4ea;
     text-decoration: none;
     border-bottom: 1px dotted;
 }
 a:hover {
-
-    color: #2ac4ea;
+    color: #62727a;
 }
 
 p.justify	{
