@@ -5,7 +5,7 @@ meta: How things turned around after I got fired.
 category: work
 ---
 
-#Shitcanned: Getting Fired & The Aftermath
+# {{ page.title }}
 
 When you work with Hoover Studios, you're not just getting a website, you're getting unrivaled customer service from team members whose talents span multiple disciplines in the web arena. Our team consists of web designers, graphic designers, developers, programmers, copywriters, and more.
 
