@@ -5,12 +5,24 @@ layout: default
 		<h1 class="title">Some Crap About Me</h1>
 		<span style="font-size: .75rem; font-family: 'Open Sans', sans-serif;">Posted on 8/7/2014  &#183; <a href="/category/faq" style="font-family: 'Lora', serif; border-bottom: 1px dotted #999;">FAQ</a></span>
     <hr style="margin-bottom: -10px;">
+    
+    <ul>
+        {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.categories }}
+        </li>
+        {% endfor %}
+    </ul>
+    
 		<article>
 			<p>
-				Good question! I'm a Minimalist Web Designer, a Graphic Designer, a Web Developer, a musician, a husband, and a soon to be father. I live in the Mid-Michigan area with my wife, Molly, and when I'm not driving her crazy playing absurdly loud music in the basement with my band Solar Collapse, you'll probably find me upstairs obsessing over the layout and typography of whatever web project I'm working on at the time. I'm currently 12 years into my web career and looking forward to where the future takes me.
-			</p>
-			<p class="justify">
-				Good question! I'm a Minimalist Web Designer, a Graphic Designer, a Web Developer, a musician, a husband, and a soon to be father. I live in the Mid-Michigan area with my wife, Molly, and when I'm not driving her crazy playing absurdly loud music in the basement with my band Solar Collapse, you'll probably find me upstairs obsessing over the layout and typography of whatever web project I'm working on at the time. I'm currently 12 years into my web career and looking forward to where the future takes me.
+			When you work with Hoover Studios, you're not just getting a website, you're getting unrivaled customer service from team members whose talents span multiple disciplines in the web arena. Our team consists of web designers, graphic designers, developers, programmers, copywriters, and more.
+            </p>
+            <p>
+The best part is, our plans are all-inclusive, which means all of our team members are at your disposal. No matter what your web needs are, we have someone on staff that can get it done for you and it's all included in your plan!
+            </p>
+            <p>
+We take care of everything; the domain, hosting, layout, graphics, programming, updates and more. You can rest assured knowing your website is in good hands, always up to date, and looking great. So stop the headaches and hassles of your website today. You take care of business, we'll take care of the website.
 			</p>
 		</article>
 </section>
